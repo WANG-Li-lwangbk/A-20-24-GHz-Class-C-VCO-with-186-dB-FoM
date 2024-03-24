@@ -1,0 +1,36 @@
+//Revision 19
+//NOTE
+// Default template for spectre
+// Note:
+//      Please remember to replace Top Cell Library, Cell, and View
+//      fields with the actual names used by your design.
+//END_NOTE
+
+config CCVCO_22P4GHz_TB;
+design class_c_vco.CCVCO_22P4GHz_TB:schematic;
+liblist myLib;
+
+viewlist spectre, cmos_sch, \cmos.sch , schematic, veriloga, ahdl, pspice, dspf;
+stoplist spectre;
+
+
+cell A_mmwave_wpt_li.CCVCO22P4G_CAP_LAYOUT binding :calibre;
+cell A_mmwave_wpt_li.VCO24G_ACTIVE binding :calibre;
+cell A_mmwave_wpt_li.IND_22P4G_TBSIM binding :schematic_nport;
+cell A_mmwave_wpt_li.VCO24G_ACTIVE_5M binding :calibre;
+cell A_mmwave_wpt_li.VCO24G_ACTIVE_4M binding :calibre;
+cell A_mmwave_wpt_li.IND_22P4G_TBSIM_V2 binding :schematic_nport;
+cell A_mmwave_wpt_li.CCVCO22P4G_CAP_LAYOUT_V2 binding :calibre;
+cell A_mmwave_wpt_li.CCVCO_22P4_CORE binding :calibre;
+cell A_mmwave_wpt_li.CCVCO_22P4_CORE_V2 binding :calibre;
+cell A_mmwave_wpt_li.DCC_Li binding :calibre;
+cell A_mmwave_wpt_li.TSPC_DIV4_2STG_26G_SE_V2 binding :calibre;
+cell A_mmwave_wpt_li.IND_22P4G_TBSIM_V3_WDMY binding :schematic_nport;
+
+cell A_MMWAVE_TX_LI.DCC_Li binding :calibre;
+cell A_MMWAVE_TX_LI.A_TSPC_DIV4_2STG_26G_SE binding :calibre;
+cell A_MMWAVE_TX_LI.Buffer_S1 binding :calibre;
+cell A_MMWAVE_TX_LI.A_Buffer_Final binding :calibre;
+
+
+endconfig
