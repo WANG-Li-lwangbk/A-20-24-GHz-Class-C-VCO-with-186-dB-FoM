@@ -1,1 +1,1 @@
-A 20-24-GHz Class-C VCO with 186-dB FoM
+Please change the library name as "class_c_vco"
