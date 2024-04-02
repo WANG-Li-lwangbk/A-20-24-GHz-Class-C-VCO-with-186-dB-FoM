@@ -1,5 +1,3 @@
-For sharing useful circuit blocks, with schematic, layout, description and testbench
-
 If layout is required, kindly provide the following information via email for verification purposes: eelwangbk@ust.hk
 
 Required Information:
