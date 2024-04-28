@@ -1,4 +1,4 @@
-**Basic Information: **
+**Basic Information:**
 
   A Class-C VCO acheving a jitter-powe FoM of -190 dB in simulation, and -186.4 in measurment, at 10-MHz offset frequency.
   The VCO is used in our CICC 2024 paper: A 20-24-GHz DPSSPLL with Charge-Domain Bandwidth Optimization Scheme Achieving 61.3-fs RMS Jitter and -253-dB FoMJitter.
