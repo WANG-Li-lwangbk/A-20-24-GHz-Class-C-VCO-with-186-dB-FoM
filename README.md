@@ -6,6 +6,7 @@ effectively optimize the PLL loop bandwidth. Different from conventional approac
 The VCO is used in our paper: A Compact 20–24-GHz Sub-Sampling PLL With Charge-Domain Bandwidth Control Scheme, published in JSSC and CICC 2024.
 
 Link to JSSC: https://ieeexplore.ieee.org/abstract/document/10746381
+
 Link to CICC: https://ieeexplore.ieee.org/abstract/document/10529091
 
 **1. Basic information:**
