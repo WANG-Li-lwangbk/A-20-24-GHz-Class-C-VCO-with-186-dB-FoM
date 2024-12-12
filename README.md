@@ -3,6 +3,10 @@
 This paper introduces a compact 20~24 GHz integer-N dual-path sub-sampling phase-locked loop (DPSSPLL) with a charge domain bandwidth control scheme. By leveraging the differential configuration of the type-I path, a charge-neutralization-based switched-capacitor gain control circuit is proposed to
 effectively optimize the PLL loop bandwidth. Different from conventional approaches that use slope-controlled circuits or charge pumps, the proposed method achieves a wide control range with minimal in-band phase noise contribution.  The proportional-integral dual-path architecture, combined with an inductor-less true single-phase clock (TSPC) divider in the feedback path, enables a compact implementation. Fabricated using a 40-nm CMOS process, the prototype demonstrates an integrated jitter of 61.23 fs at 22 GHz from 1 kHz to 100 MHz, accompanied by a figure-of-merit of -253.0 dB and a small core area of 0.057 mm2. Measurement results validate the effectiveness of the proposed gain and bandwidth control scheme.
 
+The VCO is used in our paper: A Compact 20–24-GHz Sub-Sampling PLL With Charge-Domain Bandwidth Control Scheme, published in JSSC.
+
+Link: https://ieeexplore.ieee.org/abstract/document/10746381
+
 **1. Basic information:**
 
   A Class-C VCO acheving a jitter-powe FoM of -190 dB in simulation, and -186.4 in measurment, at 10-MHz offset frequency.
